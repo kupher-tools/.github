@@ -36,11 +36,11 @@ Each repository in the org solves a specific problem with a focused and minimal 
 ## Completed Applications
 | Sr. No | App Name                          | App Type             | Description                                                                 |
 |--------|-----------------------------------|----------------------|-----------------------------------------------------------------------------|
-| 1      | registry-policy-controller        | Admission Controller | Blocks naked Pods and enforces controller-backed workloads.                |
-| 2      | namespace-ripper-operator         | Operator             | Auto-updates Deployments using latest image tags from Docker Hub.          |
-| 3      | KupherCD                          | Custom Controller    | Restarts Deployments on ConfigMap changes using annotation-based triggers. |
-| 4      | reloader-operator                 | Operator             | Periodically checks and syncs Deployment image tags across registries.     |
-| 5      | podcensor-controller              | Admission Controller | Enforces namespace-level policies (e.g., allowed registries, labels).      |
+| 1      | registry-policy-controller        | Admission Controller | Admission Controller to enforce image registry policies per namespace and across cluster.               |
+| 2      | namespace-ripper-operator         | Operator             | A K8s Operator to manage namespace lifecycle based on Time-To-Live (TTL).          |
+| 3      | KupherCD                          | Custom Controller    | A lightweight Kubernetes controller that monitors Image Registry for new container image tags and automatically updates Deployments when a newer version is available. |
+| 4      | reloader-operator                 | Operator             | A lightweight Kubernetes operator that automatically restarts deployments when their referenced ConfigMaps change.     |
+| 5      | podcensor-controller              | Admission Controller |A admission controller to censor naked Pods at the gate — only dressed (i.e., managed) workloads allowed.     |
 
 
 
