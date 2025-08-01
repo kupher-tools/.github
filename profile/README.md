@@ -33,6 +33,15 @@ Each repository in the org solves a specific problem with a focused and minimal 
 
 ✅ GitOps tools & platform plumbing utilities
 
+## Completed Applications
+| Sr. No | App Name                          | App Type             | Description                                                                 |
+|--------|-----------------------------------|----------------------|-----------------------------------------------------------------------------|
+| 1      | registry-policy-controller        | Admission Controller | Blocks naked Pods and enforces controller-backed workloads.                |
+| 2      | namespace-ripper-operator         | Operator             | Auto-updates Deployments using latest image tags from Docker Hub.          |
+| 3      | KupherCD                          | Custom Controller    | Restarts Deployments on ConfigMap changes using annotation-based triggers. |
+| 4      | reloader-operator                 | Operator             | Periodically checks and syncs Deployment image tags across registries.     |
+| 5      | podcensor-controller              | Admission Controller | Enforces namespace-level policies (e.g., allowed registries, labels).      |
+
 
 
 ## Tech Stack
