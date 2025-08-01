@@ -1,16 +1,16 @@
-# Kuper Tools
+# Kupher Tools
 Extend Kubernetes. Empower Platform Engineers. Built with Go.
 
-**Welcome to Kuper Tools — a collection of purpose-built tools, controllers, operators, and admission plugins written in Go to extend Kubernetes capabilities and solve real-world platform engineering challenges.**
+**Welcome to Kupher Tools — a collection of purpose-built tools, controllers, operators, and admission plugins written in Go to extend Kubernetes capabilities and solve real-world platform engineering challenges.**
 
-By the way, what is Kuper ? ---> Its **Ku**bernetes by Go**pher**
+By the way, what is Kupher ? ---> Its **Ku**bernetes by Go**pher**
 
-## Why Kuper Tools?
+## Why Kupher Tools?
 Modern platform engineering demands more than vanilla Kubernetes.
 
 From automating governance to enforcing security policies, scaling developer platforms to customizing controllers — Kubernetes extensibility is key.
 
-## Kuper Tools enables:
+## Kupher Tools enables:
 
 - Seamless Kubernetes extension using idiomatic Go
 
