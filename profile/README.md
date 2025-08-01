@@ -36,7 +36,7 @@ Each repository in the org solves a specific problem with a focused and minimal 
 ## Completed Applications
 | Sr. No | App Name                          | App Type             | Description                                                                 |
 |--------|-----------------------------------|----------------------|-----------------------------------------------------------------------------|
-| 1      | registry-policy-controller        | Admission Controller | Admission Controller to enforce image registry policies per namespace and across cluster.               |
+| 1      | registry-policy-controller(https://github.com/kupher-tools/registry-policy-controller)        | Admission Controller | Admission Controller to enforce image registry policies per namespace and across cluster.               |
 | 2      | namespace-ripper-operator         | Operator             | A K8s Operator to manage namespace lifecycle based on Time-To-Live (TTL).          |
 | 3      | KupherCD                          | Custom Controller    | A lightweight Kubernetes controller that monitors Image Registry for new container image tags and automatically updates Deployments when a newer version is available. |
 | 4      | reloader-operator                 | Operator             | A lightweight Kubernetes operator that automatically restarts deployments when their referenced ConfigMaps change.     |
