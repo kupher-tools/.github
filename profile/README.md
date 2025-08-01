@@ -20,17 +20,26 @@ From automating governance to enforcing security policies, scaling developer pla
 Each repository in the org solves a specific problem with a focused and minimal Go-based Kubernetes extension.
 
 ✅ Kubernetes Operators
+
 ✅ Admission Controllers
+
 ✅ Webhooks
+
 ✅ Custom Controllers
+
 ✅ CLI tools for automation
+
 ✅ GitOps tools & platform plumbing utilities
 
-📁 Project Examples
+## Project Examples
 Tool/Repo	Description
+
 kupher-operator	A boilerplate Go operator to watch and act on custom resources
+
 kupher-admission	A validating webhook to enforce image policies
+
 kupher-gitops	Git-aware sync tool to apply latest manifests with commit awareness
+
 kupher-policy	Policy engine to enforce namespace-level rules
 
 More tools being added regularly. Watch this org for updates 🔔
