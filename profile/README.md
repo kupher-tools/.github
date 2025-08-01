@@ -31,66 +31,20 @@ Each repository in the org solves a specific problem with a focused and minimal 
 
 ✅ GitOps tools & platform plumbing utilities
 
-## Project Examples
-Tool/Repo	Description
 
-kupher-operator	A boilerplate Go operator to watch and act on custom resources
 
-kupher-admission	A validating webhook to enforce image policies
+## Tech Stack
+- Go 1.22+
 
-kupher-gitops	Git-aware sync tool to apply latest manifests with commit awareness
+- Controller-runtime
 
-kupher-policy	Policy engine to enforce namespace-level rules
+- Kubernetes API Machinery
 
-More tools being added regularly. Watch this org for updates 🔔
+- Webhooks & AdmissionReview
 
-🧠 Who Is This For?
-Platform Engineers building internal platforms
+- Git, REST, YAML
+- 
+- Optionally: OPA, Helm, ArgoCD, etc.
 
-DevOps Engineers automating Kubernetes governance
-
-Golang Developers exploring K8s controller patterns
-
-Security Engineers enforcing Kubernetes policies
-
-🛣️ Roadmap
- GitOps-based deployment auto-sync
-
- Admission controller boilerplate with OPA integration
-
- Multi-tenant cost enforcement controller
-
- Kubernetes CRD linter
-
- Service Mesh config analyzer
-
- eBPF integration for runtime observability
-
-🤝 Contribution
-We welcome contributions! If you're passionate about:
-
-Writing Go for Kubernetes
-
-Solving platform pain points
-
-Building developer-first infrastructure
-
-Then fork, clone, build, and PR!
-
-See CONTRIBUTING.md (coming soon)
-
-🧩 Tech Stack
-Go 1.22+
-
-Controller-runtime
-
-Kubernetes API Machinery
-
-Webhooks & AdmissionReview
-
-Git, REST, YAML
-
-Optionally: OPA, Helm, ArgoCD, etc.
-
-📢 Stay Connected
+## Stay Connected
 Follow Rajesh Deshpande for updates, deep dives, and myth-busting Kubernetes content.
