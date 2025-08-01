@@ -43,7 +43,7 @@ Each repository in the org solves a specific problem with a focused and minimal 
 - Webhooks & AdmissionReview
 
 - Git, REST, YAML
-- 
+  
 - Optionally: OPA, Helm, ArgoCD, etc.
 
 ## Stay Connected
